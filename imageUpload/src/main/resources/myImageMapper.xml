@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="DAO.imageMapper">
+	<insert id="uploadFile" parameterType="MyImage">
+		INSERT INTO imagetable
+		VALUES (
+			imageseq.nextVal,
+			#{originalFileName},
+			#{changedFileName}
+		)
+	</insert>
+	
+	<select id="showAll" resultType="MyImage">
+		SELECT
+			originalFileName,
+			changedFileName
+		FROM
+			imagetable
+		ORDER BY
+			imageseq
+		DESC
+	
+	</select>
+</mapper>
