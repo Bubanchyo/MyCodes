@@ -16,6 +16,5 @@
 	<br/><br/>
 	<a href="imagecapture">이미지 사냥</a>
 
-
 </body>
 </html>
