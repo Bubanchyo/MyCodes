@@ -28,7 +28,7 @@ $(document).ready(function(){
 	<input type="submit" value="업로드">
 </form>
  
-<img id="pic" style="width:100%;" />
+<img id="pic" style="width:100%;  border-radius: 50%;" />
 
 
 

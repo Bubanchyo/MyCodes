@@ -11,7 +11,7 @@
 <c:forEach var="image" items="${imageList}">
 
 <div style="height : 300px; width: 1200px; margin: 0 auto; padding: 4px;">
-<img src="./resources/images/${image}" style="height: 300px; width: 200px;"><textarea rows="20" cols="150" style="resize: none;"></textarea>
+<img src="./resources/images/${image}" style="height: 300px; width: 200px; border-radius: 50%;"><textarea rows="20" cols="150" style="resize: none;"></textarea>
 </div> 
 
 </c:forEach>
