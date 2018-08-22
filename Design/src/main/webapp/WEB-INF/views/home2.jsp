@@ -5,6 +5,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
   <title>3D Carousel Using TweenMax.js & jQuery</title>
   
   
@@ -25,15 +29,15 @@
 	
 	<div id="contentContainer" class="trans3d"> 
 	<section id="carouselContainer" class="trans3d">
-		<figure id="item1" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/1.jpg'); background-size: contain;">1</div></figure>
-		<figure id="item2" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/2.jpg'); background-size: contain;">2</div></figure>
-		<figure id="item3" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/3.jpg'); background-size: contain;">3</div></figure>
-		<figure id="item4" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/4.jpg'); background-size: contain;">4</div></figure>
-		<figure id="item5" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/5.jpg'); background-size: contain;">5</div></figure>
-		<figure id="item6" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/6.jpg'); background-size: contain;">6</div></figure>
-		<figure id="item7" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/7.jpg'); background-size: contain;">7</div></figure>
-		<figure id="item8" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/8.jpg'); background-size: contain;">8</div></figure>
-		<figure id="item9" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/9.jpg'); background-size: contain;">9</div></figure>
+		<figure id="item1" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/1.jpg'); background-repeat: no-repeat; background-size: contain;">1</div></figure>
+		<figure id="item2" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/2.jpg'); background-repeat: no-repeat; background-size: contain;">2</div></figure>
+		<figure id="item3" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/3.jpg'); background-repeat: no-repeat; background-size: contain;">3</div></figure>
+		<figure id="item4" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/4.jpg'); background-repeat: no-repeat; background-size: contain;">4</div></figure>
+		<figure id="item5" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/5.jpg'); background-repeat: no-repeat; background-size: contain;">5</div></figure>
+		<figure id="item6" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/6.jpg'); background-repeat: no-repeat; background-size: contain;">6</div></figure>
+		<figure id="item7" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/7.jpg'); background-repeat: no-repeat; background-size: contain;">7</div></figure>
+		<figure id="item8" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/8.jpg'); background-repeat: no-repeat; background-size: contain;">8</div></figure>
+		<figure id="item9" class="carouselItem trans3d"><div class="carouselItemInner trans3d" style="background-image: url('./resources/image/9.jpg'); background-repeat: no-repeat; background-size: contain;">9</div></figure>
 		<figure id="item10" class="carouselItem trans3d"><div class="carouselItemInner trans3d">10</div></figure>
 		<figure id="item11" class="carouselItem trans3d"><div class="carouselItemInner trans3d">11</div></figure>
 		<figure id="item12" class="carouselItem trans3d"><div class="carouselItemInner trans3d">12</div></figure>	
