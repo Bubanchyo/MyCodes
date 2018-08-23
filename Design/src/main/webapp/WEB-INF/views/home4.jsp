@@ -51,7 +51,6 @@ html, body {
                   alert('고객님은 현재 ' + results[2].formatted_address + '에 접속중 입니다.');
                }
             });
-            
          }
       }
    });
